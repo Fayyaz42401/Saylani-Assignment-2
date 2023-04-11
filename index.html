@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment No# 02</title>
+    <script defer  src="./app.js"></script>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        flex-direction: column;
+      }
+      #bg{
+        width: 200px;
+        height: 100px;
+        background-color: #fff;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        text-align: center;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Saylani Mass & It Traning</h1>
+    <h2>JavaScript Course</h2>
+    <h2>Assignment No# 02</h2>
+    <p  id="para">Click the button to update my text!</p>
+    <button onclick="myPara()" >Update Text</button>
+
+  <ul id="myList">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ul>
+  <button onclick="addListItemToList('myList', 'New list item')" >Click me</button>
+    <div id="bg">Click the button to change the background color!</div>
+    <button onclick="changeBackground(bg , 'red' , '#fff')" >Click me </button>
+
+  </body>
+</html>
